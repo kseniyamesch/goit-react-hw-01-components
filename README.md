@@ -34,7 +34,7 @@
 изображении и нажми `Save`. Без этих настроек у сборки будет недостаточно прав
 для автоматизации процесса деплоя.
 
-![GitHub actions settings](./assets/actions-config-step-2.png)
+![GitHub actions settings](./assтets/actions-config-step-2.png)
 
 Продакшн версия проекта будет автоматически проходить линтинг, собираться и
 деплоиться на GitHub Pages, в ветку `gh-pages`, каждый раз когда обновляется
