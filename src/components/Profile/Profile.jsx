@@ -1,33 +1,42 @@
 import React from 'react';
 import PropTypes from 'prop-types'
+import s from './Profile.module.css'
+
+const image = s.image;
+const profile = s.profile;
+const user = s.name;
+const text = s.text;
+const userStats = s.stats;
+const statInfo = s.statInfo;
+const quantity = s.quantity;
 
 
 export default function Profile ({userName, tag, location, avatar, followers, views, likes }) {
     return (
-        <div className="profile">
+        <div className={profile}>
   <div className="description">
     <img
       src={avatar}
       alt={userName}
-      className="avatar"
+      className={image}
     />
-    <p className="name">{userName}</p>
-    <p className="tag">@{tag}</p>
-    <p className="location">{location}</p>
+    <p className={user}>{userName}</p>
+    <p className={text}>@{tag}</p>
+    <p className={text}>{location}</p>
   </div>
 
-  <ul className="stats">
-    <li>
+  <ul className={userStats}>
+    <li className={statInfo}>
       <span className="label">Followers</span>
-      <span className="quantity">{followers}</span>
+      <span className={quantity}>{followers}</span>
     </li>
-    <li>
+    <li className={statInfo}>
       <span className="label">Views</span>
-      <span className="quantity">{views}</span>
+      <span className={quantity}>{views}</span>
     </li>
-    <li>
+    <li className={statInfo}>
       <span className="label">Likes</span>
-      <span className="quantity">{likes}</span>
+      <span className={quantity}>{likes}</span>
     </li>
   </ul>
 </div>

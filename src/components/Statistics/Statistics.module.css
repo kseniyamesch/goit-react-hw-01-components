@@ -1,0 +1,19 @@
+.titleText {
+    color: rgb(66, 29, 29);
+    text-align: center;
+}
+
+.statList {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(228, 216, 199);
+    padding: 15px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.percent {
+    font-weight: bold;
+    color: rgb(66, 29, 29);
+}

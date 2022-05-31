@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
+
 export default function FriendListItem ({avatar, name, isOnline}) {
 return (
 <li className="item">
