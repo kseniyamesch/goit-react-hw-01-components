@@ -1,0 +1,10 @@
+.transaction {
+    border: 1px solid gray;
+    width: 90%;
+    height: auto;
+}
+
+.head {
+    background-color: lightblue;
+
+}
