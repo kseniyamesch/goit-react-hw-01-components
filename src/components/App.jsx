@@ -20,6 +20,9 @@ likes = {user.stats.likes}
 title = 'Upload stats'
 stats = {data}
 />
+<FriendList
+friends = {friends}
+/>
   </div>;
 }
 
