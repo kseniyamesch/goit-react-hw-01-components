@@ -1,11 +1,9 @@
 .transaction {
-    border: 1px solid gray;
-    width: 100%;
-    height: auto;
-
+  border: 1px solid gray;
+  width: 100%;
+  height: auto;
 }
 
 .head {
-    background-color: lightblue;
-
+  background-color: lightblue;
 }
