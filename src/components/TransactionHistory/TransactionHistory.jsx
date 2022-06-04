@@ -12,9 +12,9 @@ export default function TransactionHistory(props) {
           <th>Currency</th>
         </tr>
       </thead>
-      <tbody key={props.id}>
+      <tbody>
       {props.items.map(({type, amount, currency }) => (
-          <tr>
+          <tr key={props.id}>
             <td>{type}</td>
             <td>{amount}</td>
             <td>{currency}</td>
